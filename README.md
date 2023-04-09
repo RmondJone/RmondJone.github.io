@@ -23,14 +23,14 @@ hugo v0.89.4+extended darwin/amd64 BuildDate=unknown
 **创建IO仓库**
 必须按照以下格式创建：**<userName>.github.io**，userName就是你的GitHub名称
 
-![image.png](/images/hugo_1.png)
+![](static/images/hugo_1.png)
 
 
 **创建Hugo Action**
 访问你刚刚创建的仓库 Settings > Pages. 你将会看到以下选项：
-![image.png](/images/hugo_2.png)
+![image.png](static/images/hugo_2.png)
 切换至GitHub Action:
-![image.png](/images/hugo_3.png)
+![image.png](static/images/hugo_3.png)
 有默认的Hugo模板，选中启用即可,会自动生成以下文件。如果你没有看到，也可以手动创建。
 
 `.github/workflows/hugo.yaml`
@@ -230,6 +230,6 @@ Press Ctrl+C to stop
 **远程部署**
 本地调试如果没有问题，直接使用命令`hugo -D`生成静态文件即可。然后提交到git上，如果本地不执行命令也没有关系，前面配置的git action会帮你自动执行一遍。然后通过`https://<userName>.github.io`即可访问你的博客
 
-![](/images/hugo_4.png)
+![](static/images/hugo_4.png)
 
 
