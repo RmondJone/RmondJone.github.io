@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='一、前言介绍 Hugo是一个个人博客静态框架，相比于Hexo更加轻量生成更加快速。结合GitHub.io可以快速的搭建生成属于自己的博客，并且有丰富的主题和插件支持。
+二、搭建过程 这里主要阐述Mac上搭建的过程，Window的过程基本类似，唯一的不同就是Hugo本地环境的搭建。这个官网基本都有教程可以自己去官网查看。
+1、Hugo本地环境的搭建 使用brew命令直接按照官网最新的Hugo版本
+1 brew install hugo 运行以下命令，有版本输出则本地环境搭建完毕
+1 2 3 4 hugo version guohanlin@guohanlindeMacBook-Pro RmondJone.github.io % hugo version hugo v0.89.4&#43;extended darwin/amd64 BuildDate=unknown 2、GitHub创建io仓库并使用Hugo Action 创建IO仓库 必须按照以下格式创建：.github.io，userName就是你的GitHub名称
+创建Hugo Action 访问你刚刚创建的仓库 Settings &amp;gt; Pages. 你将会看到以下选项： 切换至GitHub Action: 有默认的Hugo模板，选中启用即可,会自动生成以下文件。如果你没有看到，也可以手动创建。
+.github/workflows/hugo.yaml
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 # Sample workflow for building and deploying a Hugo site to GitHub Pages name: Deploy Hugo site to Pages on: # Runs on pushes targeting the default branch push: branches: - main # Allows you to run this workflow manually from the Actions tab workflow_dispatch: # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages permissions: contents: read pages: write id-token: write # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.'>
+<title>Hugo&#43;Github.io搭建自己的博客</title>
+
+<link rel='canonical' href='https://rmondjone.github.io/posts/other/hugo_github/'>
+
+<link rel="stylesheet" href="/scss/style.min.8191399262444ab68b72a18c97392f5349be20a1615d77445be51e974c144cff.css"><meta property='og:title' content='Hugo&#43;Github.io搭建自己的博客'>
+<meta property='og:description' content='一、前言介绍 Hugo是一个个人博客静态框架，相比于Hexo更加轻量生成更加快速。结合GitHub.io可以快速的搭建生成属于自己的博客，并且有丰富的主题和插件支持。
+二、搭建过程 这里主要阐述Mac上搭建的过程，Window的过程基本类似，唯一的不同就是Hugo本地环境的搭建。这个官网基本都有教程可以自己去官网查看。
+1、Hugo本地环境的搭建 使用brew命令直接按照官网最新的Hugo版本
+1 brew install hugo 运行以下命令，有版本输出则本地环境搭建完毕
+1 2 3 4 hugo version guohanlin@guohanlindeMacBook-Pro RmondJone.github.io % hugo version hugo v0.89.4&#43;extended darwin/amd64 BuildDate=unknown 2、GitHub创建io仓库并使用Hugo Action 创建IO仓库 必须按照以下格式创建：.github.io，userName就是你的GitHub名称
+创建Hugo Action 访问你刚刚创建的仓库 Settings &amp;gt; Pages. 你将会看到以下选项： 切换至GitHub Action: 有默认的Hugo模板，选中启用即可,会自动生成以下文件。如果你没有看到，也可以手动创建。
+.github/workflows/hugo.yaml
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 # Sample workflow for building and deploying a Hugo site to GitHub Pages name: Deploy Hugo site to Pages on: # Runs on pushes targeting the default branch push: branches: - main # Allows you to run this workflow manually from the Actions tab workflow_dispatch: # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages permissions: contents: read pages: write id-token: write # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.'>
+<meta property='og:url' content='https://rmondjone.github.io/posts/other/hugo_github/'>
+<meta property='og:site_name' content='郭翰林的博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='HuGo' /><meta property='article:published_time' content='2023-04-06T20:10:10&#43;08:00'/><meta property='article:modified_time' content='2023-04-06T20:10:10&#43;08:00'/>
+<meta name="twitter:title" content="Hugo&#43;Github.io搭建自己的博客">
+<meta name="twitter:description" content="一、前言介绍 Hugo是一个个人博客静态框架，相比于Hexo更加轻量生成更加快速。结合GitHub.io可以快速的搭建生成属于自己的博客，并且有丰富的主题和插件支持。
+二、搭建过程 这里主要阐述Mac上搭建的过程，Window的过程基本类似，唯一的不同就是Hugo本地环境的搭建。这个官网基本都有教程可以自己去官网查看。
+1、Hugo本地环境的搭建 使用brew命令直接按照官网最新的Hugo版本
+1 brew install hugo 运行以下命令，有版本输出则本地环境搭建完毕
+1 2 3 4 hugo version guohanlin@guohanlindeMacBook-Pro RmondJone.github.io % hugo version hugo v0.89.4&#43;extended darwin/amd64 BuildDate=unknown 2、GitHub创建io仓库并使用Hugo Action 创建IO仓库 必须按照以下格式创建：.github.io，userName就是你的GitHub名称
+创建Hugo Action 访问你刚刚创建的仓库 Settings &amp;gt; Pages. 你将会看到以下选项： 切换至GitHub Action: 有默认的Hugo模板，选中启用即可,会自动生成以下文件。如果你没有看到，也可以手动创建。
+.github/workflows/hugo.yaml
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 # Sample workflow for building and deploying a Hugo site to GitHub Pages name: Deploy Hugo site to Pages on: # Runs on pushes targeting the default branch push: branches: - main # Allows you to run this workflow manually from the Actions tab workflow_dispatch: # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages permissions: contents: read pages: write id-token: write # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu5046a004738fe6196f796d96e16bab8b_7661_300x0_resize_q75_box.jpeg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">郭翰林的博客</a></h1>
+            <h2 class="site-description">移动端开发工程师</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/RmondJone/'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/RmondJone'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>文章</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E%E6%88%91/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>关于我</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1hugo本地环境的搭建">1、Hugo本地环境的搭建</a></li>
+        <li><a href="#2github创建io仓库并使用hugo-action">2、GitHub创建io仓库并使用Hugo Action</a></li>
+        <li><a href="#3拉去git仓库本地hugo调试">3、拉去Git仓库本地Hugo调试</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%85%B6%E4%BB%96/" style="background-color: #2a6fhf; color: #fff;">
+                其他
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/other/hugo_github/">Hugo&#43;Github.io搭建自己的博客</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 06, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="一前言介绍">一、前言介绍</h1>
+<p><a class="link" href="https://gohugo.io/"  target="_blank" rel="noopener"
+    >Hugo</a>是一个个人博客静态框架，相比于Hexo更加轻量生成更加快速。结合GitHub.io可以快速的搭建生成属于自己的博客，并且有丰富的主题和插件支持。</p>
+<h1 id="二搭建过程">二、搭建过程</h1>
+<p>这里主要阐述Mac上搭建的过程，Window的过程基本类似，唯一的不同就是Hugo本地环境的搭建。这个官网基本都有教程可以自己去官网查看。</p>
+<h3 id="1hugo本地环境的搭建">1、Hugo本地环境的搭建</h3>
+<p>使用brew命令直接按照官网最新的Hugo版本</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">brew install hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>运行以下命令，有版本输出则本地环境搭建完毕</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo version
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">guohanlin@guohanlindeMacBook-Pro RmondJone.github.io % hugo version
+</span></span><span class="line"><span class="cl">hugo v0.89.4+extended darwin/amd64 BuildDate=unknown
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2github创建io仓库并使用hugo-action">2、GitHub创建io仓库并使用Hugo Action</h3>
+<p><strong>创建IO仓库</strong>
+必须按照以下格式创建：<strong><!-- raw HTML omitted -->.github.io</strong>，userName就是你的GitHub名称</p>
+<p><img src="/images/hugo_1.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>创建Hugo Action</strong>
+访问你刚刚创建的仓库 Settings &gt; Pages. 你将会看到以下选项：
+<img src="/images/hugo_2.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+切换至GitHub Action:
+<img src="/images/hugo_3.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+>
+有默认的Hugo模板，选中启用即可,会自动生成以下文件。如果你没有看到，也可以手动创建。</p>
+<p><code>.github/workflows/hugo.yaml</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Sample workflow for building and deploying a Hugo site to GitHub Pages
+</span></span><span class="line"><span class="cl">name: Deploy Hugo site to Pages
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">on:
+</span></span><span class="line"><span class="cl">  # Runs on pushes targeting the default branch
+</span></span><span class="line"><span class="cl">  push:
+</span></span><span class="line"><span class="cl">    branches:
+</span></span><span class="line"><span class="cl">      - main
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  # Allows you to run this workflow manually from the Actions tab
+</span></span><span class="line"><span class="cl">  workflow_dispatch:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+</span></span><span class="line"><span class="cl">permissions:
+</span></span><span class="line"><span class="cl">  contents: read
+</span></span><span class="line"><span class="cl">  pages: write
+</span></span><span class="line"><span class="cl">  id-token: write
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+</span></span><span class="line"><span class="cl"># However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+</span></span><span class="line"><span class="cl">concurrency:
+</span></span><span class="line"><span class="cl">  group: &#34;pages&#34;
+</span></span><span class="line"><span class="cl">  cancel-in-progress: false
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Default to bash
+</span></span><span class="line"><span class="cl">defaults:
+</span></span><span class="line"><span class="cl">  run:
+</span></span><span class="line"><span class="cl">    shell: bash
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">jobs:
+</span></span><span class="line"><span class="cl">  # Build job
+</span></span><span class="line"><span class="cl">  build:
+</span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
+</span></span><span class="line"><span class="cl">    env:
+</span></span><span class="line"><span class="cl">      HUGO_VERSION: 0.111.3
+</span></span><span class="line"><span class="cl">    steps:
+</span></span><span class="line"><span class="cl">      - name: Install Hugo CLI
+</span></span><span class="line"><span class="cl">        run: |
+</span></span><span class="line"><span class="cl">          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+</span></span><span class="line"><span class="cl">          &amp;&amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+</span></span><span class="line"><span class="cl">      - name: Install Dart Sass Embedded
+</span></span><span class="line"><span class="cl">        run: sudo snap install dart-sass-embedded
+</span></span><span class="line"><span class="cl">      - name: Checkout
+</span></span><span class="line"><span class="cl">        uses: actions/checkout@v3
+</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">          submodules: recursive
+</span></span><span class="line"><span class="cl">          fetch-depth: 0
+</span></span><span class="line"><span class="cl">      - name: Setup Pages
+</span></span><span class="line"><span class="cl">        id: pages
+</span></span><span class="line"><span class="cl">        uses: actions/configure-pages@v3
+</span></span><span class="line"><span class="cl">      - name: Install Node.js dependencies
+</span></span><span class="line"><span class="cl">        run: &#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;&amp; npm ci || true&#34;
+</span></span><span class="line"><span class="cl">      - name: Build with Hugo
+</span></span><span class="line"><span class="cl">        env:
+</span></span><span class="line"><span class="cl">          # For maximum backward compatibility with Hugo modules
+</span></span><span class="line"><span class="cl">          HUGO_ENVIRONMENT: production
+</span></span><span class="line"><span class="cl">          HUGO_ENV: production
+</span></span><span class="line"><span class="cl">        run: |
+</span></span><span class="line"><span class="cl">          hugo \
+</span></span><span class="line"><span class="cl">            --gc \
+</span></span><span class="line"><span class="cl">            --minify \
+</span></span><span class="line"><span class="cl">            --baseURL &#34;${{ steps.pages.outputs.base_url }}/&#34;          
+</span></span><span class="line"><span class="cl">      - name: Upload artifact
+</span></span><span class="line"><span class="cl">        uses: actions/upload-pages-artifact@v1
+</span></span><span class="line"><span class="cl">        with:
+</span></span><span class="line"><span class="cl">          path: ./public
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  # Deployment job
+</span></span><span class="line"><span class="cl">  deploy:
+</span></span><span class="line"><span class="cl">    environment:
+</span></span><span class="line"><span class="cl">      name: github-pages
+</span></span><span class="line"><span class="cl">      url: ${{ steps.deployment.outputs.page_url }}
+</span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
+</span></span><span class="line"><span class="cl">    needs: build
+</span></span><span class="line"><span class="cl">    steps:
+</span></span><span class="line"><span class="cl">      - name: Deploy to GitHub Pages
+</span></span><span class="line"><span class="cl">        id: deployment
+</span></span><span class="line"><span class="cl">        uses: actions/deploy-pages@v2
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="3拉去git仓库本地hugo调试">3、拉去Git仓库本地Hugo调试</h3>
+<p><strong>创建默认站点</strong>
+进入到Git工程目录，执行以下命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hugo new site .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>执行完命令之后会生成以下目录结构:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">├── archetypes
+</span></span><span class="line"><span class="cl">│   └── default.md
+</span></span><span class="line"><span class="cl">├── assets
+</span></span><span class="line"><span class="cl">├── config.toml
+</span></span><span class="line"><span class="cl">├── content
+</span></span><span class="line"><span class="cl">├── data
+</span></span><span class="line"><span class="cl">├── layouts
+</span></span><span class="line"><span class="cl">├── public
+</span></span><span class="line"><span class="cl">├── static
+</span></span><span class="line"><span class="cl">└── themes
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>设置想要的主题</strong>
+Hugo的主题有很多，可以去<a class="link" href="https://themes.gohugo.io/"  target="_blank" rel="noopener"
+    >官网的主题</a>目录挑选合适的主题。我这里使用的主题是hugo-papermod,以这个主题为例。首先进入themes目录，然后git clone下来。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd themes
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git clone git@github.com:adityatelange/hugo-PaperMod.git
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后在config.yaml里<code>theme: 'hugo-PaperMod'</code>配置默认主题即可。config.toml我使用不习惯，所以这里我直接改成的yaml写法，直接更改后缀即可，这里直接展示我的yaml配置。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">#基础配置
+</span></span><span class="line"><span class="cl">baseURL: &#39;http://rmondjone.github.io&#39;
+</span></span><span class="line"><span class="cl">languageCode: &#39;zh-CN&#39;
+</span></span><span class="line"><span class="cl">title: &#39;郭翰林的博客&#39;
+</span></span><span class="line"><span class="cl">theme: &#39;hugo-PaperMod&#39;
+</span></span><span class="line"><span class="cl">enableInlineShortcodes: true
+</span></span><span class="line"><span class="cl">enableRobotsTXT: true
+</span></span><span class="line"><span class="cl">buildDrafts: false
+</span></span><span class="line"><span class="cl">buildFuture: false
+</span></span><span class="line"><span class="cl">buildExpired: false
+</span></span><span class="line"><span class="cl">enableEmoji: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">#配置菜单
+</span></span><span class="line"><span class="cl">menu:
+</span></span><span class="line"><span class="cl">  main:
+</span></span><span class="line"><span class="cl">    - name: 🔍 搜索
+</span></span><span class="line"><span class="cl">      url: search/
+</span></span><span class="line"><span class="cl">      weight: 10
+</span></span><span class="line"><span class="cl">    - name: 分类
+</span></span><span class="line"><span class="cl">      url: tags/
+</span></span><span class="line"><span class="cl">      weight: 10
+</span></span><span class="line"><span class="cl">    - name: 关于我
+</span></span><span class="line"><span class="cl">      url: about/
+</span></span><span class="line"><span class="cl">      weight: 10
+</span></span><span class="line"><span class="cl">    - name: 首页
+</span></span><span class="line"><span class="cl">      url: /
+</span></span><span class="line"><span class="cl">      weight: 10
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">#主题配置参数
+</span></span><span class="line"><span class="cl">params:
+</span></span><span class="line"><span class="cl">  defaultTheme: auto
+</span></span><span class="line"><span class="cl">  homeInfoParams:
+</span></span><span class="line"><span class="cl">    Title: &#34;技能树&#34;
+</span></span><span class="line"><span class="cl">    Content: &gt;
+</span></span><span class="line"><span class="cl">      XXXXXXXXXX你要显示内容
+</span></span><span class="line"><span class="cl">  socialIcons:
+</span></span><span class="line"><span class="cl">    - name: Github
+</span></span><span class="line"><span class="cl">      url: &#34;https://github.com/RmondJone&#34;
+</span></span><span class="line"><span class="cl">    - name: Email
+</span></span><span class="line"><span class="cl">      url: about/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>生成文章</strong>
+生成文章主要就是使用<code>hugo new xxxx.md</code>这个命令去生成文章即可，执行完命令之后，会自动生成md文件在content目录。如果使用<code>hugo new  post/xxx.md </code>，则会在content目录下多生成一个post目录。以此类推。</p>
+<p><strong>关于Markdown的图片引用</strong>
+markdown中使用图片引用，需要在static目录下新建一个images文件夹，当然目录名称随便你取，我这里只是举个例子。然后把图片放到images文件夹里。在markdown里像如下写法引用：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![](/images/weixin.jpg)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>本地调试</strong>
+直接使用命令<code>hugo server -D</code>即可，执行完命令之后，会有以下输出，直接点击链接预览即可。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">guohanlin@guohanlindePro RmondJone.github.io % hugo server
+</span></span><span class="line"><span class="cl">Start building sites … 
+</span></span><span class="line"><span class="cl">hugo v0.111.3+extended darwin/amd64 BuildDate=unknown
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                   | EN  
+</span></span><span class="line"><span class="cl">-------------------+-----
+</span></span><span class="line"><span class="cl">  Pages            | 17  
+</span></span><span class="line"><span class="cl">  Paginator pages  |  0  
+</span></span><span class="line"><span class="cl">  Non-page files   |  0  
+</span></span><span class="line"><span class="cl">  Static files     |  1  
+</span></span><span class="line"><span class="cl">  Processed images |  0  
+</span></span><span class="line"><span class="cl">  Aliases          |  4  
+</span></span><span class="line"><span class="cl">  Sitemaps         |  1  
+</span></span><span class="line"><span class="cl">  Cleaned          |  0  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Built in 30 ms
+</span></span><span class="line"><span class="cl">Watching for changes in /Users/guohanlin/Documents/GitHub/RmondJone.github.io/{archetypes,content,static,themes}
+</span></span><span class="line"><span class="cl">Watching for config changes in /Users/guohanlin/Documents/GitHub/RmondJone.github.io/config.yaml
+</span></span><span class="line"><span class="cl">Environment: &#34;development&#34;
+</span></span><span class="line"><span class="cl">Serving pages from memory
+</span></span><span class="line"><span class="cl">Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+</span></span><span class="line"><span class="cl">Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+</span></span><span class="line"><span class="cl">Press Ctrl+C to stop
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>远程部署</strong>
+本地调试如果没有问题，直接使用命令<code>hugo -D</code>生成静态文件即可。然后提交到git上，如果本地不执行命令也没有关系，前面配置的git action会帮你自动执行一遍。然后通过<code>https://&lt;userName&gt;.github.io</code>即可访问你的博客</p>
+<p><img src="/images/hugo_4.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hugo/">HuGo</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/posts/other/vps_bbr/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">VPS服务器一键BBR加速教程--网速变10倍</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/posts/other/docker_xray/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Docker搭建XRay用户管理以及流量伪装教程</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/posts/other/pngquant_python/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Python结合Pngquant给工程做图片批量压缩</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/posts/other/debain_iptables/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Debian 10 iptables防火墙常用命令</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/posts/other/docsify_kit/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">使用Docsify生成组件库文档</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="RmondJone/RmondJone.github.io"
+        issue-term="pathname"
+        
+        label="Comment"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2023 郭翰林的博客
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

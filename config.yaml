@@ -1,0 +1,12 @@
+#基础配置
+baseURL: 'https://rmondjone.github.io'
+languageCode: 'zh-cn'
+paginate: 10
+title: '郭翰林的博客'
+theme: 'hugo-theme-stack'
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true

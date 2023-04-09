@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>JetBrains插件 on 郭翰林的博客</title>
+        <link>https://rmondjone.github.io/tags/jetbrains%E6%8F%92%E4%BB%B6/</link>
+        <description>Recent content in JetBrains插件 on 郭翰林的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Sat, 08 Apr 2023 14:57:49 +0800</lastBuildDate><atom:link href="https://rmondjone.github.io/tags/jetbrains%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>JsonToTypeScript插件使用介绍</title>
+        <link>https://rmondjone.github.io/posts/jetbrains/jsontotypescript/</link>
+        <pubDate>Sat, 08 Apr 2023 14:57:49 +0800</pubDate>
+        
+        <guid>https://rmondjone.github.io/posts/jetbrains/jsontotypescript/</guid>
+        <description>&lt;h1 id=&#34;一插件下载&#34;&gt;一、插件下载&lt;/h1&gt;
+&lt;p&gt;JsonToTypeScript插件是一款Json快速转TS实体插件，可以直接在WebStorm应用市场上搜索JsonToTypeScript即可下载。
+&lt;img src=&#34;https://rmondjone.github.io/images/jsontots_1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;二插件的使用方法&#34;&gt;二、插件的使用方法&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;使用快捷键Alt+T或者使用Generate菜单&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;直接在ts、js文件中使用Alt+T快捷键或者Generate快捷键，调起生成弹窗。在弹窗中输入你想要转换的JSON字符串即可，当然你也可以点击格式化按钮进行一次格式化。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/jsontots_2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>YapiQuickType插件使用说明</title>
+        <link>https://rmondjone.github.io/posts/jetbrains/yapi_quick_type/</link>
+        <pubDate>Fri, 07 Apr 2023 10:04:45 +0800</pubDate>
+        
+        <guid>https://rmondjone.github.io/posts/jetbrains/yapi_quick_type/</guid>
+        <description>&lt;h1 id=&#34;一业务背景&#34;&gt;一、业务背景&lt;/h1&gt;
+&lt;p&gt;日常开发中，我们会用到YApi这个工具，YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台，可以进行接口定义以及接口模拟的一些操作。&lt;/p&gt;
+&lt;p&gt;有关更多的YApi使用教程，可以参考&lt;a class=&#34;link&#34; href=&#34;https://github.com/YMFE/yapi&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YApi官网&lt;/a&gt;，这里就不再过多的赘述。&lt;/p&gt;
+&lt;p&gt;本插件是一个基于YApi开源接口之上的一个编码工具插件，主要用于接口定义实体代码的快速生成，只要在插件设置选项中进行简单的配置，即可一键快速生成多种你想要的语言接口定义实体代码。&lt;/p&gt;
+&lt;p&gt;目前支持生成的语言有：Kotlin、Java、TypeScript、Dart、Swift、Objective-C、Go、C++&lt;/p&gt;
+&lt;h1 id=&#34;二插件下载以及配置&#34;&gt;二、插件下载以及配置&lt;/h1&gt;
+&lt;h3 id=&#34;下载&#34;&gt;下载&lt;/h3&gt;
+&lt;p&gt;直接插件市场搜索Yapi QuickType进行下载&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_1.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;插件配置&#34;&gt;插件配置&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_2.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;YApi根路径填入自建的地址&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;配置你需要的项目的Id、Token&lt;/strong&gt;
+这些都可以在YApi项目配置里找到，找到复制填入即可，项目名称可以随意填写。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重启IDE使配置生效&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_3.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_4.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;三插件的使用以及效果&#34;&gt;三、插件的使用以及效果&lt;/h1&gt;
+&lt;h5 id=&#34;1插件的使用也非常简单只需要在你想要生成代码的目录右键即可&#34;&gt;（1）插件的使用也非常简单，只需要在你想要生成代码的目录右键即可&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_5.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2-json代码生成插件粘贴复制的json字符串输入生成的实体名称选择想要生成的语言点击ok生成代码&#34;&gt;(2) JSON代码生成插件：粘贴复制的JSON字符串、输入生成的实体名称、选择想要生成的语言点击OK生成代码&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_6.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h5 id=&#34;3-yapi代码生成插件选择你配置的项目的对应接口和想要生成的语言&#34;&gt;(3) YApi代码生成插件：选择你配置的项目的对应接口和想要生成的语言&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_7.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;#####（4）生成代码效果
+&lt;img src=&#34;https://rmondjone.github.io/images/yapi_quicktype_8.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：IDE内部版本号低于203的使用FIX-IU171版本&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果请求QuickTypeNode服务失败，请配置以下host&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.67.196.35 quicktype.guohanlin.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果配置Host还是不行，你可以尝试本地搭建QuickTypeNode服务，然后服务地址配置到插件中即可 &lt;a class=&#34;link&#34; href=&#34;https://github.com/RmondJone/QuickTypeNode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;QuickTypeNode&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
