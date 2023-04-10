@@ -2,6 +2,7 @@
 title: JetBrains插件
 description: JetBrains插件开发
 image: jetbrains.svg
+weight: 3
 
 # Badge style
 style:

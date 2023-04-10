@@ -48,7 +48,7 @@ limit = 10
 type = "tag-cloud"
 
 [widgets.homepage.params]
-limit = 10
+limit = 50
 
 [[widgets.page]]
 type = "toc"
