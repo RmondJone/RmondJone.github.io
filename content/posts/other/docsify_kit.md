@@ -13,14 +13,17 @@ docsify不受项目使用语言限制，只需项目中使用markdown来书写�
 # 二、Docsify的使用
 
 ## 全局安装环境
-```
+
+```shell
 npm i docsify-cli -g
 ```
 
 ## 项目中初始化
-```
+
+```shell
 docsify init ./docs
 ```
+
 执行完毕，生成 docs 目录。里面有3个文件：
 
 * .nojekyll：让gitHub不忽略掉以 _ 打头的文件
@@ -29,6 +32,7 @@ docsify init ./docs
 ## Docsify的配置
 ### 主页的设置
 如果不想使用README.md作为主页，这可以修改index.html手动指定homepage设置主页
+
 ``` js
     window.$docsify = {
       homepage:'home.md',
@@ -37,7 +41,8 @@ docsify init ./docs
 ```
 ### 侧边栏的设置
 如果需要侧边栏导航，则放开loadSidebar属性，并指定相应的md侧边栏文件
-```
+
+```js
     window.$docsify = {
       loadSidebar: 'sidebar.md',
       subMaxLevel: 3, //子菜单最大层级
@@ -45,7 +50,8 @@ docsify init ./docs
     }
 ```
 sidebar.md里的示例
-```
+
+```shell
 * [首页](/)
 * APCommonButton按钮组件
     * [APCommonButton](components/button/buttons.md)
@@ -59,7 +65,8 @@ sidebar.md里的示例
 
 ### 设置搜索
 如果需求全局搜索，只需要配置search属性即可
-```
+
+```js
     window.$docsify = {
       search: 'auto',
       auto2top: true,
@@ -67,17 +74,19 @@ sidebar.md里的示例
 ```
 ## Docsify文档的生成
 设置完成之后，只需输入以下命令即可进行文档预览
-```
+
+```shell
 docsify serve docs
 ```
+
 ## Docsify更多配置
 请参考以下链接: [https://docsify.js.org/#/configuration](https://docsify.js.org/#/configuration)
 
 # 三、结合Docker自动化输出文档
 ## Dockerfile
 在项目根目录新建Dockerfile,代码如下：
-```
 
+```shell
 #下载Node环境
 FROM node:10.12.0-alpine
 #作者信息
@@ -100,10 +109,10 @@ CMD docsify serve docs
 
 ## 服务器生成Docker镜像并运行服务
 * 生成Docker镜像
-```
+```shell
 docker build . -t xxxxxx(你要生成的镜像名称)
 ```
 * 运行Docker镜像，对外提供文档服务
-```
+```shell
 docker run --name commmon_docs -p 9000:3000  xxxxxx(前面生成的镜像名称)
 ```

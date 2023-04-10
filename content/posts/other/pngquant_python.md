@@ -19,7 +19,7 @@ categories: ["其他"]
 [https://github.com/RmondJone/PicPngquant](https://github.com/RmondJone/PicPngquant)
 
 # 脚本介绍
-```
+```shell
 import os
 import platform
 import threading

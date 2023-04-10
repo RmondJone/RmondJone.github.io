@@ -17,6 +17,7 @@ draft: false
 
 # 二、实现效果
 只需工程根目录执行脚本PgyerBuild Debug即可完成**打包+上传蒲公英+钉钉通知**
+
 ![](/images/ios_pgyer.webp)
 
 
@@ -27,15 +28,19 @@ draft: false
 ● 集成完毕！执行打包脚本，即可完成**打包+上传蒲公英+钉钉通知**
 
 **脚本使用教程**
-```
+
+```shell
 #打Debug包
 PgyerBuild Debug
 #打Release包
 PgyerBuild Release
 ```
+
 # 四、脚本源码
-####  Python脚本
-```
+
+**Python脚本**
+
+```groovy
 # This is a sample Python script.
 
 import json
@@ -178,10 +183,12 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 ```
+
 * 使用**pyinstaller** 打出脚本，重命名PgyerBuild
 
-#### FastLane配置模板
-```
+**FastLane配置模板**
+
+```shell
 # This file contains the fastlane.tools configuration
 # You can find the documentation at https://docs.fastlane.tools
 #
@@ -255,5 +262,4 @@ platform :ios do
     )
   end
 end
-
 ```

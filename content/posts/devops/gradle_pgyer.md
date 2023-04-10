@@ -10,7 +10,8 @@ draft: false
 
 # 二、脚本的实现
 利用蒲公英开发出的Api [https://www.pgyer.com/doc/view/api#uploadApp](https://www.pgyer.com/doc/view/api#uploadApp)，调用curl命令直接上传Apk包到蒲公英上
-```
+
+```java
 import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
 import org.apache.tools.ant.taskdefs.condition.Os

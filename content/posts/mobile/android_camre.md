@@ -15,7 +15,8 @@ draft: false
 
 
 ### 一、预览布局的实现
-###### （1） 抽离预览图层为一个单独的自定义控件CameraPreview ，传递Camre对象，设置必要的相机预览参数。
+
+**(1)抽离预览图层为一个单独的自定义控件CameraPreview ，传递Camre对象，设置必要的相机预览参数。**
 ```java
 package com.focustech.xyz.baselibrary.camera;
 
@@ -197,6 +198,7 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
 }
 
 ```
+
 这里有2处地方需要注意，相机要设置正确的预览尺寸和正确的图片的尺寸。如果预览尺寸设置错误，则预览布局会被拉伸或者收缩。如果图片尺寸设置错误，部分机型会导致闪退或者拍出的照片很不清晰。
 
 这里适配预览尺寸和图片尺寸，是根据设备的屏宽比和Carme拿到的说支持的预览尺寸和图片尺寸计算得出应有的预览尺寸和图片尺寸，代码如下。
@@ -235,6 +237,7 @@ private AspectRatio getDeviceAspectRatio(Activity activity) {
     return AspectRatio.of(height, width);
 }
 ```
+
 ```java
 /**
  * 注释：选择合适的预览尺寸
@@ -267,7 +270,9 @@ private Size chooseOptimalSize(SortedSet<Size> sizes) {
     return result;
 }
 ```
-###### （2）屏宽比AspectRatio的实现
+
+**(2)屏宽比AspectRatio的实现**
+
 ```java
 package com.focustech.xyz.baselibrary.camera;
 
@@ -445,6 +450,7 @@ public class AspectRatio implements Comparable<AspectRatio>, Parcelable {
 }
 
 ```
+
 ```java
 /*
  * Copyright (C) 2016 The Android Open Source Project
@@ -529,6 +535,7 @@ public class Size implements Comparable<Size> {
 
 }
 ```
+
 ```java
 package com.focustech.xyz.baselibrary.camera;
 
@@ -602,7 +609,8 @@ public class SizeMap {
 
 ```
 ### 二、相机点触自动聚焦并绘制对焦框的实现
-###### （1）抽离聚焦框为单独的自定义组件，传递Carma对象和聚焦回调，设置必要的相机参数
+**(1)抽离聚焦框为单独的自定义组件，传递Carma对象和聚焦回调，设置必要的相机参数**
+
 ```java
 package com.focustech.xyz.baselibrary.camera;
 
@@ -788,7 +796,8 @@ public class OverCameraView extends AppCompatImageView {
 }
 
 ```
-###### （2）在Activity中的onTouchEvent函数中触发相机聚焦
+**(2)在Activity中的onTouchEvent函数中触发相机聚焦**
+
 ```java
 @Override
 public boolean onTouchEvent(MotionEvent event) {
@@ -831,13 +840,16 @@ private Camera.AutoFocusCallback autoFocusCallback = new Camera.AutoFocusCallbac
 };
 ```
 ### 三、自定义相机布局
-###### （1）自定义相机预览
+
+**(1)自定义相机预览**
+
 ![](/images/camre_screen_1.webp)
 
 ![](/images/camre_screen_2.webp)
 
 
-###### （2）自定义相机实现代码
+**(2)自定义相机实现代码**
+
 ```java
 package com.focustech.xyz.baselibrary.camera;
 
@@ -1263,7 +1275,9 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
 }
 
 ```
+
 Activity自定义布局 `R.layout.activity_camre_layout`
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1395,8 +1409,8 @@ Activity自定义布局 `R.layout.activity_camre_layout`
 </RelativeLayout>
 ```
 ###  四、Demo链接
-### 欢迎Star
-### GitHub:[https://github.com/RmondJone/AndroidCamera](https://github.com/RmondJone/AndroidCamera)
+
+GitHub:[https://github.com/RmondJone/AndroidCamera](https://github.com/RmondJone/AndroidCamera)
 
 
 

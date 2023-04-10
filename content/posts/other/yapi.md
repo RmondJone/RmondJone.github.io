@@ -10,16 +10,16 @@ YApi 是高效、易用、功能强大的 api 管理平台，旨在为开发、�
 ### 二、Yapi的快速搭建
 
 #### 1、Docker创建mongoDB的虚拟磁盘
-```
+```shell
 docker volume create mongo-data
 ```
 
 #### 2、拉取mongoDB镜像并且创建容器
 
-```
+```shell
 docker pull mongo:latest
 ```
-```
+```shell
 docker run -d \
   --name mongodb \
   --restart always \
@@ -33,10 +33,12 @@ docker run -d \
 ```
 
 #### 3、进入MongoDB容器，初始化表
-```
+```shell
 docker exec -it mongodb mongosh
 ```
-```
+
+
+```shell
 use admin;
 db.auth("yapipro", "yapipro1024");
 # 创建 yapi 数据库
@@ -59,7 +61,7 @@ exit
 
 #### 4、宿主机创建Yapi配置文件
 
-```
+```json
  {
    "port": "3000",
    "adminAccount": "xxxxxx@gmail.com",
@@ -87,7 +89,7 @@ exit
 
 #### 5、拉取Yapi镜像并创建容器
 
-```
+```shell
 docker pull yapipro/yapi:latest
 # 初始化数据库表
 docker run -d --rm \

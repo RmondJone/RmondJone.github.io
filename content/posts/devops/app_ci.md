@@ -29,7 +29,7 @@ draft: false
 
 总体来说，搭建App自动化打包的步骤主要就这3步。主要介绍的就是第3步，这里用我们工程里的脚本来详细说明，每行命令的作用。
 
-```
+```shell
 pipeline {
     agent any
     parameters {
@@ -232,7 +232,6 @@ pipeline {
         }
     }
 }
-
 ```
 
 首先我们来大致说下这个文件的大概意思，网上也有教程不明白的，可以再上网多找找资料。
@@ -251,7 +250,8 @@ pipeline {
 ### 四、Android、IOS打包脚本详解
 
 我们先来看Android，这里需要你有一定的Gradle基础，可以自己写简单的Gradle任务。从上面的Jenkins脚本，我们可以看到Android在打包的时候，区分了编译版本，debug和preview的直接调用Android自带的打包脚本assembleDebug、assembleRelease，Release版本也就是发布版本，这里我们做了自定义Gradle脚本**buildReinforceRelease**，为什么我们要自定义，因为通常我们上线发布的时候都需要加固APK并且做多渠道操作。如果每次都去手动用工具操作的话，这个是个很蛋疼的活。下面我们来看看这个脚本里有什么。
-```
+
+```groovy
 ext {
     //加固插件路径
     reinforce_plugin_path = "${project.rootDir}/reinforce"
@@ -365,7 +365,7 @@ Android的部分就介绍到这，下面我们来看IOS打包脚本部分，前�
 
 关于Fastlane怎么集成，怎么部署网上都有教程这里不去赘述，这里主要说的就是Fastlane里的脚本该如何去书写，怎么去配置证书以及签名
 
-```
+```shell
 # This file contains the fastlane.tools configuration
 # You can find the documentation at https://docs.fastlane.tools
 #

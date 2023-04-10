@@ -34,7 +34,8 @@ draft: false
 ![](/images/network_proxy_3.webp)
 
 # 五、核心代码
-```
+
+```kotlin
 class NetWorkProxyKit : AbstractKit() {
     override val icon: Int
         get() = R.drawable.ic_acting
