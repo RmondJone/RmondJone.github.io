@@ -150,4 +150,4 @@ setAccessible(boolean flag)|设置访问权限，如果构造函数为私有必�
 ```
 可以看到最后调用了native方法classForName，传入了类名和ClassLoader ，所以看到这边基本可以确定反射最后调用的其实也是**ClassLoader 的类加载方法**。通过类名找到相应的字节码文件，然后加载到JVM内存中以供开发者使用。
 
-关于Java的类加载机制可以参考我写的这篇文章：[《深入理解Java虚拟机》-- 类加载机制](https://www.jianshu.com/p/94b935988fad)
+关于Java的类加载机制可以参考我写的这篇文章：[《深入理解Java虚拟机》-- 类加载机制](/posts/java/java_classload/)
