@@ -5,12 +5,14 @@ tags: ["JetBrains插件"]
 categories: [ "JetBrains插件"]
 draft: false
 ---
-# 一、插件下载
+# JsonToAnyLanguage ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.rmondjone.jsontotypescript)
+
+## 一、插件下载
 
 JsonToTypeScript插件是一款Json快速转TS实体插件，可以直接在WebStorm应用市场上搜索JsonToTypeScript即可下载。
 ![](/images/jsontots_1.png)
 
-# 二、插件的使用方法
+## 二、插件的使用方法
 
 **使用快捷键Alt+T或者使用Generate菜单**
 

@@ -5,6 +5,8 @@ tags: ["JetBrains插件"]
 categories: [ "JetBrains插件"]
 draft: false
 ---
+# YApi QuickType ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.guohanlin.yapiquicktype)
+
 ## 一、业务背景
 日常开发中，我们会用到YApi这个工具，YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台，可以进行接口定义以及接口模拟的一些操作。
 
