@@ -51,12 +51,4 @@ draft: false
 ### 生成代码效果
 ![](/images/yapi_quicktype_8.webp)
 
-**注：IDE内部版本号低于203的使用FIX-IU171版本**
-
-**如果请求QuickTypeNode服务失败，请配置以下host**
-
-```
-172.67.196.35 quicktype.guohanlin.com
-```
-
-如果配置Host还是不行，你可以尝试本地搭建QuickTypeNode服务，然后服务地址配置到插件中即可 [QuickTypeNode](https://github.com/RmondJone/QuickTypeNode)
+如果接口请求不同，你可以尝试本地搭建QuickTypeNode服务，然后服务地址配置到插件中即可 [QuickTypeNode](https://github.com/RmondJone/QuickTypeNode)
