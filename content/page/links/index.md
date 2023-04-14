@@ -24,3 +24,11 @@ comments: false
 
 # 社交网络
 ![](/images/weixin.jpg)
+
+# 捐赠
+
+您的支持是我前进的动力
+
+![](/images/weixinpay.jpeg)
+
+![](/images/alipay.jpeg)
