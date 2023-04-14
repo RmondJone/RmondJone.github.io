@@ -51,4 +51,4 @@ draft: false
 ### 生成代码效果
 ![](/images/yapi_quicktype_8.webp)
 
-如果接口请求不同，你可以尝试本地搭建QuickTypeNode服务，然后服务地址配置到插件中即可 [QuickTypeNode](https://github.com/RmondJone/QuickTypeNode)
+如果接口请求不通，你可以尝试本地搭建QuickTypeNode服务，然后服务地址配置到插件中即可 [QuickTypeNode](https://github.com/RmondJone/QuickTypeNode)
