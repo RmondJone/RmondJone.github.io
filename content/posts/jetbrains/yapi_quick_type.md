@@ -52,3 +52,15 @@ draft: false
 ![](/images/yapi_quicktype_8.webp)
 
 如果接口请求不通，你可以尝试本地搭建QuickTypeNode服务，然后服务地址配置到插件中即可 [QuickTypeNode](https://github.com/RmondJone/QuickTypeNode)
+
+## 三、使用反馈
+
+QQ群：[264587303](https://jq.qq.com/?_wv=1027&k=96R8fd5v)
+
+![](/images/qq_ercode.jpeg)
+
+Telegram: [https://t.me/+9DYAumdLYwxmOTNl](https://t.me/+9DYAumdLYwxmOTNl)
+
+![](/images/tg_ercode.jpeg)
+
+[English document](https://plugins.jetbrains.com/plugin/18847-yapi-quicktype/documentation)

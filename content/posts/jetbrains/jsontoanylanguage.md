@@ -43,10 +43,17 @@ tags: ["JetBrains插件"]
 
 ## 五、使用反馈
 
-欢迎加入我的电报群：[https://t.me/YApiQuickType](https://t.me/YApiQuickType)
-
-QQ群：[264587303](https://jq.qq.com/?_wv=1027&k=96R8fd5v)
-
 如果你使用了YApi，这里推荐另一个更好用的JetBrains插件：[YApi QuickType](https://plugins.jetbrains.com/plugin/18847-yapi-quicktype)
 
 使用反馈：[https://rmondjone.github.io/posts/jetbrains/jsontoanylanguage/](https://rmondjone.github.io/posts/jetbrains/jsontoanylanguage/)
+
+
+QQ群：[264587303](https://jq.qq.com/?_wv=1027&k=96R8fd5v)
+
+![](/images/qq_ercode.jpeg)
+
+Telegram: [https://t.me/+9DYAumdLYwxmOTNl](https://t.me/+9DYAumdLYwxmOTNl)
+
+![](/images/tg_ercode.jpeg)
+
+[English document](https://plugins.jetbrains.com/plugin/19297-jsontoanylanguage/documentation)

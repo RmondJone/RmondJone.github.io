@@ -84,3 +84,15 @@ tags: ["JetBrains插件"]
 本插件支持修改自己的提交模版，但是固有的几个变量`@Type`、`@Scope`、`@ShortDescription`、`@LongDescription`是不可以更改的，输入@会自动补全提示。
 
 ![](/images/commit_plugin_4.png)
+
+## 四、使用反馈
+
+QQ群：[264587303](https://jq.qq.com/?_wv=1027&k=96R8fd5v)
+
+![](/images/qq_ercode.jpeg)
+
+Telegram: [https://t.me/+9DYAumdLYwxmOTNl](https://t.me/+9DYAumdLYwxmOTNl)
+
+![](/images/tg_ercode.jpeg)
+
+[English document](https://plugins.jetbrains.com/plugin/12256-commit-message-create/documentation)
