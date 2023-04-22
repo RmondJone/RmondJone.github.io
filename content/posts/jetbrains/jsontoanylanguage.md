@@ -56,4 +56,8 @@ Telegram: [https://t.me/+9DYAumdLYwxmOTNl](https://t.me/+9DYAumdLYwxmOTNl)
 
 ![](/images/tg_ercode.jpeg)
 
+## 六、捐赠
+
+您的支持是我维护更新插件的动力，捐赠地址：[捐赠](https://rmondjone.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/)
+
 [English document](https://plugins.jetbrains.com/plugin/19297-jsontoanylanguage/documentation)
