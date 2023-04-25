@@ -6,7 +6,7 @@ categories: ["JetBrains插件"]
 tags: ["JetBrains插件"]
 ---
 
-# JsonToRust 
+# JsonToRust   ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.guohanlin.JsonToRust)
 
 ## 一、插件下载
 

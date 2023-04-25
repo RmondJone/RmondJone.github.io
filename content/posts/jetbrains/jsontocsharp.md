@@ -6,7 +6,7 @@ categories: ["JetBrains插件"]
 tags: ["JetBrains插件"]
 ---
 
-# JsonToC#
+# JsonToC#  ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.guohanlin.jsontocsharp)
 
 ## 一、插件下载
 

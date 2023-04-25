@@ -1,24 +1,24 @@
 ---
-title: "JsonToC++插件使用说明"
-date: 2023-04-24T16:12:17+08:00
+title: "JsonToPHP插件说明"
+date: 2023-04-25T10:06:16+08:00
 draft: false
 categories: ["JetBrains插件"]
 tags: ["JetBrains插件"]
 ---
 
-# JsonToC++  ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.guohanlin.JsonToCPlusPlus)
+# JsonToPHP
 
 ## 一、插件下载
 
-JsonToC++插件是一款Json快速转C++实体插件，可以直接在Jetbrains应用市场上搜索JsonToC++即可下载。
+JsonToPHP插件是一款Json快速转PHP实体插件，可以直接在Jetbrains应用市场上搜索JsonToPHP即可下载。
 
-![](/images/jsontocpp.png)
+![](/images/jsontophp.png)
 
 ## 二、插件的使用方法
 
-在想要生成实体的文件夹上右键，选择JsonToC++菜单，在弹窗的转换弹窗中输入想要转换的字符串和实体名称，点击确认即可生成实体。
+在想要生成实体的文件夹上右键，选择JsonToPHP菜单，在弹窗的转换弹窗中输入想要转换的字符串和实体名称，点击确认即可生成实体。
 
-![](/images/jsontocpp_1.png)
+![](/images/jsontophp_1.png)
 
 ![](/images/jsontorust_3.png)
 
@@ -35,4 +35,3 @@ Telegram: [https://t.me/+9DYAumdLYwxmOTNl](https://t.me/+9DYAumdLYwxmOTNl)
 ## 四、捐赠
 
 您的支持是我维护更新插件的动力，捐赠地址：[捐赠](https://rmondjone.github.io/%E5%85%B3%E4%BA%8E%E6%88%91/)
-

@@ -6,7 +6,7 @@ categories: ["JetBrains插件"]
 tags: ["JetBrains插件"]
 ---
 
-# JsonToPython
+# JsonToPython  ![Downloads](https://img.shields.io/jetbrains/plugin/d/com.guohanlin.JsonToPython)
 
 ## 一、插件下载
 
