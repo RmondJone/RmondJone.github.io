@@ -56,7 +56,7 @@ Copyright Agent
 
 2318560278@qq.com
 
-JianSu, China
+JiangSu, China
 
 ## **Paid Version**
 
@@ -86,7 +86,7 @@ IN COUNTRIES WHERE EXCLUSIONS OR LIMITATIONS OF LIABILITY ARE PERMITTED BY LAW, 
 
 THESE EXCLUSIONS OR LIMITATIONS WILL APPLY REGARDLESS OF WHETHER OR NOT JsonToPHP OR ANY OF ITS AFFILIATES HAS BEEN WARNED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-OTHER THAN FOR THE TYPES OF LIABILITY WE CANNOT LIMIT BY LAW, WE LIMIT OUR LIABILITY TO YOU TO THE GREATER OF $20.00 USD OR 100% OF ANY AMOUNT OF FEES YOU HAVE PAID UNDER YOUR CURRENT PLAN WITH JsonToPHP.
+OTHER THAN FOR THE TYPES OF LIABILITY WE CANNOT LIMIT BY LAW, WE LIMIT OUR LIABILITY TO YOU OF $1.00 USD
 
 **Indemnification**
 
@@ -96,7 +96,7 @@ To the fullest extent permitted by law, you agree to release, indemnify, and hol
 
 *Informal Resolution.* Before filing a legal claim against JsonToPHP, you agree to try to resolve the dispute informally by contacting [2318560278@qq.com](mailto:2318560278@qq.com). If a dispute is not resolved within 15 days of submission, you may bring a formal claim.
 
-*Judicial Forum for Disputes.* Except to the extent applicable law provides otherwise, you and JsonToPHP agree that any judicial proceeding to resolve claims relating to this Agreement or the Services will be brought in the federal or state courts of JianSu China, subject to the mandatory arbitration provisions below. Both you and JsonToPHP consent to venue and personal jurisdiction in such courts.
+*Judicial Forum for Disputes.* Except to the extent applicable law provides otherwise, you and JsonToPHP agree that any judicial proceeding to resolve claims relating to this Agreement or the Services will be filed in court in Jiangsu Province, China, subject to the mandatory arbitration provisions below. Both you and JsonToPHP consent to venue and personal jurisdiction in such courts.
 
 **PLEASE READ THE FOLLOWING SECTIONS CAREFULLY! THEY MAY SIGNIFICANTLY AFFECT YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT AND TO HAVE A JURY HEAR YOUR CLAIMS.**
 
@@ -106,7 +106,7 @@ To the fullest extent permitted by law, you agree to release, indemnify, and hol
 
 *Arbitration Procedures.* Arbitration is a less formal procedure than a lawsuit in court. Arbitration uses a neutral arbitrator instead of a judge or jury, and court review of an arbitration award is very limited. The American Arbitration Association (“**AAA**”) will administer the arbitration under its Commercial Arbitration Rules and the Supplementary Procedures for Consumer Related Disputes. AAA’s rules are available at [www.adr.org](https://www.google.com/url?q=http://www.adr.org&sa=D&source=editors&ust=1626126207232000&usg=AOvVaw2bRsRea34hzv5gZqFK2o55). The arbitration will be held in the United States county where you live or work, Ohio, or another mutually agreed-upon location.
 
-*Arbitration Costs.* The AAA rules will govern payment of all arbitration fees. JsonToPHP will pay all arbitration fees for individual arbitration for claims less than $10,000 unless the arbitrator determines that the claim is frivolous. JsonToPHP will not seek its attorneys' fees and costs in arbitration unless the arbitrator determines that the claim is frivolous.
+*Arbitration Costs.* We will not pay you any costs of suing us
 
 *Opt-Out Procedure.* YOU CAN REJECT THIS AGREEMENT TO ARBITRATE (“**OPT-OUT**”) BY EMAILING US AT 2318560278@qq.com WITHIN 30 DAYS OF FIRST REGISTERING YOUR ACCOUNT AND PROVIDING US WITH YOUR NAME, EMAIL ADDRESS, AND A CLEAR STATEMENT SHOWING YOUR INTENT TO OPT OUT OF THE ARBITRATION AGREEMENT. HOWEVER, IF YOU AGREED TO A PREVIOUS VERSION OF THESE TERMS THAT ALLOWED YOU TO OPT OUT OF ARBITRATION, YOUR PREVIOUS CHOICE TO OPT-OUT OR NOT OPT-OUT REMAINS BINDING.
 
