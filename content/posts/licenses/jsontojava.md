@@ -1,6 +1,5 @@
 ---
 title: "JsonToJava's LICENSE"
-date: 2023-04-28T11:19:11+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

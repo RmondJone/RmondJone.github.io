@@ -1,6 +1,5 @@
 ---
 title: "JsonToAnyLanguage's LICENSE"
-date: 2023-04-28T10:59:27+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

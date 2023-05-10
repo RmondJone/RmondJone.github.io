@@ -1,6 +1,5 @@
 ---
 title: "JsonToSwift's LICENSE"
-date: 2023-04-28T11:15:19+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

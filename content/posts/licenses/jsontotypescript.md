@@ -1,6 +1,5 @@
 ---
 title: "JsonToTypeScript's  LICENSE"
-date: 2023-04-14T15:59:25+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

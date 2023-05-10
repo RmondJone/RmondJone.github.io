@@ -1,6 +1,5 @@
 ---
 title: "JsonToGo's LICENSE"
-date: 2023-04-28T11:10:14+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

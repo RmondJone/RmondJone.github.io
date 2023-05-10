@@ -1,6 +1,5 @@
 ---
 title: "CommitMessageCreate's  LICENSE"
-date: 2023-04-28T10:53:03+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

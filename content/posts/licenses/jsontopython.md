@@ -1,6 +1,5 @@
 ---
 title: "JsonToPython's LICENSE"
-date: 2023-04-28T11:08:35+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

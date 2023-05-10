@@ -1,6 +1,5 @@
 ---
 title: "Yapi QuickType's LICENSE"
-date: 2023-04-28T11:02:16+08:00
 draft: false
 categories: ["LICENSE"]
 tags: ["LICENSE"]

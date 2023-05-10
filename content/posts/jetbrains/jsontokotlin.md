@@ -1,6 +1,5 @@
 ---
 title: "JsonToKotlin插件使用说明"
-date: 2023-04-25T20:09:01+08:00
 draft: false
 categories: ["JetBrains插件"]
 tags: ["JetBrains插件"]
