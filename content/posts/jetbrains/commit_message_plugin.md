@@ -66,13 +66,13 @@ tags: ["JetBrains插件"]
 
 ## 三、IDEA 插件集成以及使用
 
-**插件下载**
+### 插件下载
 
 为了规范成员的提交代码信息，我新写了一个IDEA插件来帮助快速生成代码提交信息模板。插件市场直接搜索Commit-Message-Plugin 
 
 ![](/images/commit_plugin_1.png)
 
-**插件使用** 
+### 插件使用 
 
 在提交弹窗中点击小飞机图标唤起提交信息填写弹窗,填写相应的信息提交即可生成提交信息
 
@@ -84,6 +84,18 @@ tags: ["JetBrains插件"]
 本插件支持修改自己的提交模版，但是固有的几个变量`@Type`、`@Scope`、`@ShortDescription`、`@LongDescription`是不可以更改的，输入@会自动补全提示。
 
 ![](/images/commit_plugin_4.png)
+
+**生成ChangeLog**
+
+本插件支持根据提交信息生成ChangeLog功能，你可以直接在分支上右键选择Generate ChangeLog或者直接使用快捷键Alt+K，调起生成ChangeLog弹窗。
+
+在弹窗中输入想要生成的Tag标签以及提交类型，会自动按照选中的提交类型进行归纳生成ChangeLog日志。
+
+![](/images/commit_plugin_5.png)
+
+![](/images/commit_plugin_6.png)
+
+![](/images/commit_plugin_7.png)
 
 ## 四、使用反馈
 

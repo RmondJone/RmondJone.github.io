@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/posts/jetbrains/commit_message_plugin.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/jetbrains/commit_message_plugin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/jetbrains/jsontoanylanguage.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/jetbrains/jsontoanylanguage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/jetbrains/jsontotypescript.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/jetbrains/jsontotypescript.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/jetbrains/yapi_quick_type.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/jetbrains/yapi_quick_type.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="plugins.commit.changType" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,6 +53,7 @@
       <workItem from="1681027466667" duration="527000" />
       <workItem from="1682151674009" duration="430000" />
       <workItem from="1682152576402" duration="298000" />
+      <workItem from="1684996711751" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 第一次提交">
       <created>1681027309760</created>
