@@ -61,8 +61,95 @@ docker run --restart=always --name x-ui -d -v /root/x-ui/db:/etc/x-ui -v /root/s
 
 ![](/images/xray.webp)
 
+### 三、X-UI域名访问
+搭建nginx
+```
+docker pull nginx && docker run -d -p 80:80 --network host --name nginx --restart=always nginx
+```
 
-### 三、自建协议转换Clash链接服务
+进入nginx容器
+```
+#查看当前nginx的容器id
+docker ps -a
+
+#进入nginx容器
+docker exec -it xxxx bash
+```
+
+更改nginx配置文件
+```
+#首先更新 apt-get
+apt-get update
+
+#安装vim
+apt-get install vim
+
+#编辑nginx配置文件
+vim /etc/nginx/nginx.conf
+```
+
+nginx 通用配置模板
+```
+user  nginx;
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    server{
+        listen 443 ssl;
+        server_name  abc.com;
+        ssl_certificate /root/ssl/fullchain.crt;
+        ssl_certificate_key /root/ssl/xxxxx.key;
+        ssl_trusted_certificate /root/ssl/fullchain.crt;
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;
+        ssl_prefer_server_ciphers on;
+        ssl_session_cache shared:SSL:10m;
+        ssl_session_timeout 10m;
+        
+        location / {
+            proxy_pass https://abc.com:54321;
+        }
+    }
+    
+    server {
+        listen	80;
+        server_name  abc.com;
+        # 核心代码
+        rewrite ^(.*)$ https://${server_name}$1 permanent;
+    }
+}
+
+```
+配置完成之后，进入X-UI面板配置证书和端口，重启面板即可
+![](/images/xray_1.jpg)
+
+
+### 四、自建协议转换Clash链接服务
 
 * 安装subconverter转换服务
 ```
