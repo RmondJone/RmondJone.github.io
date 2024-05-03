@@ -71,11 +71,15 @@ VFUN服是官方国际服，是2021年WebZen把C9卖给VFUN之后的默认官方
 | ty | 谢谢 |
 | np | 没关系 |
 | PM | 私聊=private message |
+| DUMMY | 生存宝宝 |
+| SDM | 异界大师 |
+| R30 | 生存30 |
 | TES | 强化石 |
 | TE | 防具强化石 |
 | TEC | 首饰强化石 |
 | each | 每件 |
 | pcs | 件数 |
+| stack | 一沓 |
 
 ![image.png](/images/c9_new_guide_18.png)
 
