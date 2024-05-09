@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/xray_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="docs: 黑苹果BIOS设置说明">
+      <change afterPath="$PROJECT_DIR$/content/posts/devops/sentry.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sentry_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/other/docker_xray.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/other/docker_xray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +62,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\RmondJone.github.io\static\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
