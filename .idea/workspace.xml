@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="docs: 黑苹果BIOS设置说明">
-      <change afterPath="$PROJECT_DIR$/content/posts/devops/sentry.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sentry_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +73,7 @@
       <workItem from="1682151674009" duration="430000" />
       <workItem from="1682152576402" duration="298000" />
       <workItem from="1684996711751" duration="470000" />
+      <workItem from="1715257481964" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 第一次提交">
       <created>1681027309760</created>
@@ -124,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682152857761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: sentry日志监控平台">
+      <created>1715257530267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715257530267</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +134,33 @@
                   <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -155,6 +174,7 @@
     <MESSAGE value="feat: 第一次提交" />
     <MESSAGE value="docs: README.md更新" />
     <MESSAGE value="docs: 黑苹果BIOS设置说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: 黑苹果BIOS设置说明" />
+    <MESSAGE value="feat: sentry日志监控平台" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: sentry日志监控平台" />
   </component>
 </project>
