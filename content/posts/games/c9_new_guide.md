@@ -54,6 +54,9 @@ VFUN服是官方国际服，是2021年WebZen把C9卖给VFUN之后的默认官方
 ![f97d8247a4930d612e461b3233fcaa3.jpg](/images/c9_new_guide_15.jpg)
 ![79c3a623054d18c023c5f814ddfd136.jpg](/images/c9_new_guide_16.jpg)
 ![fe52e281ad421c7e80c02310e0a8fdf.jpg](/images/c9_new_guide_17.jpg)
+
+### 其他职业加点，加群，看群相册，都有！
+
 ## 四、VFUN服务器的基本情况
 
 ### 游戏物价
@@ -133,6 +136,12 @@ VFUN服是官方国际服，是2021年WebZen把C9卖给VFUN之后的默认官方
 
 ![image.png](/images/c9_new_guide_50.png)
 ![image.png](/images/c9_new_guide_51.png)
+
+95级之后进行重生，重生之后得到相应的属性加成，具体可以看群相册，对应的增幅都有，这里有一个非常重要的事情要说一下，就是**不要做觉醒任务！不要做觉醒任务！不要做觉醒任务！**
+因为当你觉醒完之后，你就不享受活动经验加成了，副本600%通关 600%经验药这些都和你没有关系了。就是下图这个任务，切记！！！
+
+![image.png](/images/c9_new_guide_52.jpg)
+
 
 
 ### 游戏的装备怎么搞？
