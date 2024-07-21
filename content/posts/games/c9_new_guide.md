@@ -359,6 +359,20 @@ VFUN服是官方国际服，是2021年WebZen把C9卖给VFUN之后的默认官方
 
 ![image.png](/images/c9_new_guide_63.png)
 
+### 符文平转以及符文解绑
+![image.png](/images/c9_new_guide_65.png)
+
+左侧放入已升星的符文，右侧放入新的符文，然后放入星纹平转水晶。星纹等级越高要的平转水晶越多
+
+<1>星纹平转会将原符文上的星纹等级与随机属性一同平转到新符文上
+
+<2>星纹平转后，新符文将绑定，原符文解绑。
+
+![image.png](/images/c9_new_guide_66.png)
+
+符文解绑需要用到上面的【古神封印书】，然后按照下图解绑
+
+![image.png](/images/c9_new_guide_67.png)
 
 ### 守护像参考
 
