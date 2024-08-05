@@ -78,9 +78,23 @@ VFUN服是官方国际服，是2021年WebZen把C9卖给VFUN之后的默认官方
 | WTS | 我想卖=want to sell |
 | WTT | 我想要交换 |
 | WTB | 我想买=want to buy |
+| STR | 气 |
+| WIS | 灵|
+| POWG | 战争符文 |
+| BOPP | 太古符文 |
+| GA | 黄金期|
+| PLS | 请|
+| GA PLS| 请开下黄金期 |
+| hm | how much 多少钱 |
+| vague | 朦胧的 |
+| delicate | 淡淡的 |
+| flashy | 华丽的 |
+| splendid | 灿烂的 |
+| divine | 神圣的 |
+| immortal | 不灭的 |
 | ty | 谢谢 |
 | np | 没关系 |
-| you are welcome | 不客气 |
+| you are welcome 或者 wc| 不客气 |
 | last run | 最后一局 |
 | last price或者LP | 最后报价 |
 | PM | 私聊=private message |
