@@ -30,7 +30,24 @@ export Ali_Secret="Secret_XXX"
 ```
 * 申请证书
 ```
-acme.sh --issue --dns dns_ali -d *.abc.com
+acme.sh --issue --dns dns_ali -d *.abc.com \
+--cert-file /root/ssl/xxxxx.crt \
+--key-file  /root/ssl/xxxxx.key \
+--fullchain-file /root/ssl/fullchain.crt
+```
+
+
+* CloudFlare创建AccessKey ID及AccessKey Secret，并配置环境变量
+```
+export CF_Key="Key_XXX"
+export CF_Email="Secret_XXX"
+```
+* 申请证书
+```
+acme.sh --issue --dns dns_cf -d *.abc.com \
+--cert-file /root/ssl/xxxxx.crt \
+--key-file  /root/ssl/xxxxx.key \
+--fullchain-file /root/ssl/fullchain.crt
 ```
 
 * 定时任务保证了证书在到期前能自动续期,由于ACME协议和Let’s Encrypt CA都在频繁的更新，因此建议开启acme.sh的自动升级：
