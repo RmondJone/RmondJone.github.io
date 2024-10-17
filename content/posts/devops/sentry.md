@@ -238,3 +238,57 @@ private fun requestSpan(request: Request, span: ISpan) {
 这样我只需要在Sentry上点开对应的接口，就可以查看对应的接口入参和出参信息
 
 ![image.png](/images/sentry_9.png)
+
+## 四、Sentry的搭建
+
+- 下载Sentry源码
+```
+wget  -b https://github.com/getsentry/self-hosted/archive/refs/tags/23.7.2.tar.gz
+
+tar -xvf 23.7.2.tar.gz
+```
+- 修改日志保存日期
+```
+vi .env
+```
+- 运行源码安装脚本
+```
+./install.sh
+```
+- 启动Sentry服务
+```
+docker-compose up -d
+```
+
+## 五、Sentry日志的定时清理
+- 新建脚本/data/scripts/sentry-clean.sh
+```
+#!/bin/bash
+
+source /etc/profile
+
+DATE_NOW=`date +%F\ %H:%M:%S`
+
+rm -rf /data/scripts/sentry-clean.log
+
+echo "====================${DATE_NOW}开始执行Sentry清理任务======================" >> /data/scripts/sentry-clean.log
+
+docker exec sentry-self-hosted-web-1 /bin/bash -c "sentry cleanup --days 3" >> /data/scripts/sentry-clean.log
+
+docker exec sentry-self-hosted-postgres-1 /bin/bash -c "vacuumdb -U postgres -d postgres -v -f --analyze" >> /data/scripts/sentry-clean.log
+
+df -h >> /data/scripts/sentry-clean.log
+
+echo "====================${DATE_NOW}结束执行Sentry清理任务======================" >> /data/scripts/sentry-clean.log
+```
+
+- 设置定时任务
+```
+00 03 * * * sh /data/scripts/sentry-clean.sh
+```
+
+- 重启定时任务
+```
+service crond reload
+service crond restart
+```
