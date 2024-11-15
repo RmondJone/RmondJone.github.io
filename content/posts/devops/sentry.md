@@ -261,6 +261,39 @@ docker-compose up -d
 ```
 
 ## 五、Sentry日志的定时清理
+- 进入postgres容器安装pg_repack清理插件
+```
+docker exec -it sentry-self-hosted-postgres-1 /bin/bash
+
+apt update
+
+apt install -y --no-install-recommends postgresql-14-repack
+
+#切换到su用户
+su postgres
+
+pg_repack --version
+
+# 将 pg_repack 加入 Postgres 启动配置
+cd $PGDATA
+
+psql postgres
+
+postgres=# CREATE EXTENSION pg_repack;
+CREATE EXTENSION
+postgres=# \dx
+                                  List of installed extensions
+   Name    | Version |   Schema   |                         Description
+-----------+---------+------------+--------------------------------------------------------------
+ citext    | 1.3     | public     | data type for case-insensitive character strings
+ pg_repack | 1.4.7   | public     | Reorganize tables in PostgreSQL databases with minimal locks
+ plpgsql   | 1.0     | pg_catalog | PL/pgSQL procedural language
+(3 rows)
+
+postgres=# \q
+```
+
+
 - 新建脚本/data/scripts/sentry-clean.sh
 ```
 #!/bin/bash
@@ -273,9 +306,13 @@ rm -rf /data/scripts/sentry-clean.log
 
 echo "====================${DATE_NOW}开始执行Sentry清理任务======================" >> /data/scripts/sentry-clean.log
 
-docker exec sentry-self-hosted-web-1 /bin/bash -c "sentry cleanup --days 3" >> /data/scripts/sentry-clean.log
+cd ~/self-hosted-23.7.2
 
-docker exec sentry-self-hosted-postgres-1 /bin/bash -c "vacuumdb -U postgres -d postgres -v -f --analyze" >> /data/scripts/sentry-clean.log
+docker compose run --rm web cleanup --days 7 -m nodestore -l debug >> /data/scripts/sentry-clean.log
+
+docker exec sentry-self-hosted-postgres-1 /bin/bash -c "su postgres -c 'pg_repack -E info -t nodestore_node'" >> /data/scripts/sentry-clean.log
+
+find /var/lib/docker/volumes/ -type f -name "*.log" -exec rm {} \; >> /data/scripts/sentry-clean.log
 
 df -h >> /data/scripts/sentry-clean.log
 
