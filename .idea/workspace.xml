@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" afterDir="false" />
-    </list>
+    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721552295078</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="perf: 📜️C9引导介绍">
+      <option name="closed" value="true" />
+      <created>1741511188623</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741511188623</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +232,7 @@
     <MESSAGE value="feat: C9引导--觉醒注意事项" />
     <MESSAGE value="feat: C9引导--怎么挂梯子，怎么优惠充值、怎么兑换天龙" />
     <MESSAGE value="feat: C9引导--符文平转" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: C9引导--符文平转" />
+    <MESSAGE value="perf: ️C9引导介绍" />
+    <option name="LAST_COMMIT_MESSAGE" value="perf: ️C9引导介绍" />
   </component>
 </project>
