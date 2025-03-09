@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="" />
+    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hugo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hugo.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741511759733</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ci: 📌️CI编译失败修复1">
+      <option name="closed" value="true" />
+      <created>1741511850239</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741511850239</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ci: 📌️CI编译失败修复2">
+      <option name="closed" value="true" />
+      <created>1741512045217</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1741512045217</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +260,8 @@
     <MESSAGE value="feat: C9引导--符文平转" />
     <MESSAGE value="perf: ️C9引导介绍" />
     <MESSAGE value="ci: ️CI编译失败修复" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: ️CI编译失败修复" />
+    <MESSAGE value="ci: ️CI编译失败修复1" />
+    <MESSAGE value="ci: ️CI编译失败修复2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: ️CI编译失败修复2" />
   </component>
 </project>
