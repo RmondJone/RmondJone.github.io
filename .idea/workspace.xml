@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="" />
+    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +21,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1111" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -29,6 +38,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2OBHtm5UF3wExlexRuoL7i39Dvu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,24 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/RmondJone.github.io"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RmondJone.github.io\static\images" />
@@ -74,6 +77,11 @@
       <workItem from="1682152576402" duration="298000" />
       <workItem from="1684996711751" duration="470000" />
       <workItem from="1715257481964" duration="284000" />
+      <workItem from="1717426495444" duration="219000" />
+      <workItem from="1717426894714" duration="997000" />
+      <workItem from="1720952708598" duration="1445000" />
+      <workItem from="1720956796684" duration="3446000" />
+      <workItem from="1721551728519" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 第一次提交">
       <created>1681027309760</created>
@@ -117,13 +125,70 @@
       <option name="project" value="LOCAL" />
       <updated>1715257530267</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: C9引导--觉醒注意事项">
+      <created>1717305536233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717305536233</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: C9引导--怎么挂梯子，怎么优惠充值、怎么兑换天龙">
+      <created>1720958423241</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958423241</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: C9引导--怎么挂梯子，怎么优惠充值、怎么兑换天龙">
+      <created>1720960006233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720960006233</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: C9引导--怎么挂梯子，怎么优惠充值、怎么兑换天龙">
+      <created>1720960061814</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720960061814</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: C9引导--怎么挂梯子，怎么优惠充值、怎么兑换天龙">
+      <created>1720960154602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720960154602</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: C9引导--符文平转">
+      <created>1721552295078</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721552295078</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -150,22 +215,6 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -175,6 +224,9 @@
     <MESSAGE value="docs: README.md更新" />
     <MESSAGE value="docs: 黑苹果BIOS设置说明" />
     <MESSAGE value="feat: sentry日志监控平台" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: sentry日志监控平台" />
+    <MESSAGE value="feat: C9引导--觉醒注意事项" />
+    <MESSAGE value="feat: C9引导--怎么挂梯子，怎么优惠充值、怎么兑换天龙" />
+    <MESSAGE value="feat: C9引导--符文平转" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: C9引导--符文平转" />
   </component>
 </project>
