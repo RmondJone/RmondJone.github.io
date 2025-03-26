@@ -240,6 +240,42 @@ private fun requestSpan(request: Request, span: ISpan) {
 ![image.png](/images/sentry_9.png)
 
 ## 四、Sentry的搭建
+- Docker 环境版本
+```
+[root@ecs-1a5c ~]# docker version
+Client: Docker Engine - Community
+ Version:           26.1.4
+ API version:       1.45
+ Go version:        go1.21.11
+ Git commit:        5650f9b
+ Built:             Wed Jun  5 11:32:04 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          26.1.4
+  API version:      1.45 (minimum version 1.24)
+  Go version:       go1.21.11
+  Git commit:       de5c9cf
+  Built:            Wed Jun  5 11:31:02 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.33
+  GitCommit:        d2d58213f83a351ca8f528a95fbd145f5654e957
+ runc:
+  Version:          1.1.12
+  GitCommit:        v1.1.12-0-g51d5e94
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+```
+
+```
+[root@ecs-1a5c ~]# docker compose version
+Docker Compose version v2.27.1
+```
 
 - 下载Sentry源码
 ```
