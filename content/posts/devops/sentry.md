@@ -296,6 +296,11 @@ vi .env
 docker-compose up -d
 ```
 
+- 设置超级用户
+```
+docker compose run --rm web createuser --superuser --force-update
+```
+
 ## 五、Sentry日志的定时清理
 - 进入postgres容器安装pg_repack清理插件
 ```
