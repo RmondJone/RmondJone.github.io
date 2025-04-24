@@ -72,6 +72,26 @@ Android中内存优化的常用工具，主要有下面这几种。
   
   LeakCanary是一个三方的分析内存泄漏的工具，它可以通过堆转储.hprof文件准确的定位出内存泄漏的代码，并且对于用户有一个友好的页面。可以快速的进行内存泄漏的分析和排查。
 
+## LeakCanary原理
+
+LeakCanary 是 Android 平台上用于检测内存泄漏的开源工具，其核心原理基于 弱引用（WeakReference） 和 堆转储分析（Heap Dump Analysis）。以下是其工作原理的简化说明：
+
+**1. 监控对象生命周期**
+* LeakCanary 通过注册 Application.ActivityLifecycleCallbacks 监听 Activity 和 Fragment 的 onDestroy() 方法。
+* 当 Activity/Fragment 销毁时，LeakCanary 会将其包装成一个 KeyedWeakReference（带唯一标识的弱引用），并关联到一个 ReferenceQueue
+
+**2. 弱引用与引用队列机制**
+
+* 弱引用特性：若对象仅被弱引用持有，GC 时会回收该对象，并将弱引用放入关联的 ReferenceQueue
+* 检测逻辑：
+在 onDestroy() 后，延迟几秒（如 5 秒）检查 ReferenceQueue，若弱引用未进入队列，说明对象未被回收，可能泄漏。
+触发手动 GC（System.gc()）再次确认，若仍未被回收，则判定为内存泄漏。
+
+**3. 堆转储与分析**
+* 生成堆转储（Heap Dump）：当确认泄漏时，LeakCanary 调用 Debug.dumpHprofData() 生成内存快照（.hprof 文件）
+* 分析泄漏路径： 
+* 使用 Shark 库（旧版为 HAHA 库）解析堆转储，找出泄漏对象的引用链（从 GC Roots 到泄漏对象的路径）。 过滤无关引用，生成简洁的泄漏报告
+
 
 
 

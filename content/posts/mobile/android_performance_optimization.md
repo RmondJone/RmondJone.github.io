@@ -49,4 +49,63 @@ tags: ["Android","性能优化"]
 
   ![](/images/android_optimization_2.webp)
 
+* **BlockCanary三方检测库**
 
+  [Github仓库地址](https://github.com/seiginonakama/BlockCanaryEx)
+ 
+  BlockCanary 是一款用于 检测 Android 应用卡顿（主线程阻塞） 的开源工具，它能帮助开发者快速定位导致界面卡顿的代码。
+
+  简单来说： 它像一个 “卡顿监控器”，专门盯着 App 的主线程（UI 线程）。 如果主线程被某个任务 卡住太久（比如耗时操作），BlockCanary 就会 记录当时的堆栈、CPU、内存等信息，并生成报告，告诉开发者 哪里出了问题。
+
+  ![](/images/block_canary.jpg)
+
+## 三、BlockCanary原理
+
+![](/images/block_source.jpeg)
+
+**1. 监控主线程的 Looper 消息队列**
+
+Android 的主线程通过 Looper 循环处理消息（Message），每个消息代表一个任务（如 UI 刷新、点击事件等）。
+
+BlockCanary 通过 替换 Looper 的 Printer（默认用于日志输出的接口），在每条消息执行前后插入监控逻辑：
+
+```java
+// 伪代码：替换 Looper 的 Printer
+Looper.getMainLooper().setMessageLogging(new Printer() {
+    @Override
+    public void println(String log) {
+        if (log.startsWith(">>>>> Dispatching")) {
+            // 记录消息开始时间
+            startTime = System.currentTimeMillis();
+        } else if (log.startsWith("<<<<< Finished")) {
+            // 计算消息处理耗时
+            long costTime = System.currentTimeMillis() - startTime;
+            if (costTime > 阈值（如 2秒）) {
+                // 触发卡顿分析
+                analyzeBlock(costTime);
+            }
+        }
+    }
+});
+```
+
+**2. 卡顿判定与数据采集**
+
+当主线程的某个消息处理时间超过设定的阈值（如 2 秒），BlockCanary 会：
+* 抓取当前主线程的堆栈（通过 Thread.getStackTrace()），定位卡顿代码位置。
+* 采集系统状态（CPU、内存、I/O 负载等），分析是否因系统资源不足导致卡顿。
+* 保存卡顿日志（时间、堆栈、设备信息等）。
+
+**3. 生成可视化报告**
+
+将卡顿信息整理成易读的报告（如弹出通知、生成日志文件），开发者可直接查看：
+
+```
+BlockCanary 卡顿报告：
+- 卡顿时间：2023-10-01 12:00:00  
+- 耗时：2.5 秒  
+- 堆栈：
+    at com.example.MainActivity.onClick(MainActivity.java:100)
+    at android.view.View.performClick(View.java:7000)
+- CPU 占用：80%（可能资源紧张）
+```
