@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/hugo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hugo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/mobile/react_hermes_yago.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/RmondJone.github.io&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/RmondJone.github.io",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RmondJone.github.io\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -198,7 +204,55 @@
       <option name="project" value="LOCAL" />
       <updated>1741512045217</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="docs: 📖️Android AsyncTask详解">
+      <option name="closed" value="true" />
+      <created>1745806770835</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745806770835</updated>
+    </task>
+    <task id="LOCAL-00018" summary="docs: 📖️Android AsyncTask详解">
+      <option name="closed" value="true" />
+      <created>1745809133103</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1745809133103</updated>
+    </task>
+    <task id="LOCAL-00019" summary="docs: 📖️Android Binder通讯机制详解">
+      <option name="closed" value="true" />
+      <created>1745811020664</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1745811020664</updated>
+    </task>
+    <task id="LOCAL-00020" summary="docs: 📖️Android Binder通讯机制详解">
+      <option name="closed" value="true" />
+      <created>1745811035712</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1745811035712</updated>
+    </task>
+    <task id="LOCAL-00021" summary="docs: 📖️Android Binder使用教程">
+      <option name="closed" value="true" />
+      <created>1745812142411</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1745812142411</updated>
+    </task>
+    <task id="LOCAL-00022" summary="docs: 📖️React Native DOM渲染详解">
+      <option name="closed" value="true" />
+      <created>1745824334445</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1745824334445</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +316,10 @@
     <MESSAGE value="ci: ️CI编译失败修复" />
     <MESSAGE value="ci: ️CI编译失败修复1" />
     <MESSAGE value="ci: ️CI编译失败修复2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci: ️CI编译失败修复2" />
+    <MESSAGE value="docs: ️Android AsyncTask详解" />
+    <MESSAGE value="docs: ️Android Binder通讯机制详解" />
+    <MESSAGE value="docs: ️Android Binder使用教程" />
+    <MESSAGE value="docs: ️React Native DOM渲染详解" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: ️React Native DOM渲染详解" />
   </component>
 </project>
