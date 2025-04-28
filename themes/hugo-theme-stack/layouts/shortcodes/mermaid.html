@@ -1,0 +1,23 @@
+<div class="mermaid" align="{{ if .Get " align" }} {{ .Get "align" }} {{ else }} center {{ end }}">
+{{ safeHTML .Inner }}
+</div>
+
+<script src="https://cdn.staticfile.org/mermaid/8.5.0/mermaid.min.js"></script>
+
+<script>
+  var config = {
+      startOnLoad:true,
+      flowchart:{
+          useMaxWidth:false,
+          htmlLabels:true
+      },
+      sequence: {
+          showSequenceNumbers: true,
+          actorMargin: 50,
+          diagramMarginX:10,
+          diagramMarginY:10
+      },
+      theme: "dark"
+  };
+  mermaid.initialize(config);
+</script>
