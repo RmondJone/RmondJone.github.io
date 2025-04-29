@@ -3,6 +3,8 @@ mainSections = ["posts"]
 # Output page's full content in RSS.
 rssFullContent = true
 
+fancybox = true
+
 [footer]
 since = 2020
 customText = ""

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/posts/mobile/android_keybord_oom.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/params.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/_default/_markup/render-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/_default/_markup/render-image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials/head/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials/head/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
