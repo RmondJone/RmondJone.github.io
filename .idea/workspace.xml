@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/posts/mobile/react_hermes_yago.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/mobile/android_keybord_oom.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,19 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/RmondJone.github.io",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guohanlin/Documents/GitHub/RmondJone.github.io/static/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="D:\RmondJone.github.io\static\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -252,7 +253,79 @@
       <option name="project" value="LOCAL" />
       <updated>1745824334445</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="docs: 📖️React Native Yago引擎和Hermes引擎介绍">
+      <option name="closed" value="true" />
+      <created>1745824895757</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1745824895757</updated>
+    </task>
+    <task id="LOCAL-00024" summary="docs: 📖️React Native Fabric详解">
+      <option name="closed" value="true" />
+      <created>1745825667745</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1745825667745</updated>
+    </task>
+    <task id="LOCAL-00025" summary="docs: 📖️React Native 基于Metro分包">
+      <option name="closed" value="true" />
+      <created>1745826835701</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1745826835701</updated>
+    </task>
+    <task id="LOCAL-00026" summary="docs: 📖️Android 通知栏知识点">
+      <option name="closed" value="true" />
+      <created>1745831594029</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1745831594029</updated>
+    </task>
+    <task id="LOCAL-00027" summary="docs: 📖️Android启动Activity传参序列化原因">
+      <option name="closed" value="true" />
+      <created>1745836476273</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1745836476273</updated>
+    </task>
+    <task id="LOCAL-00028" summary="docs: 📖️Android 多进程机制">
+      <option name="closed" value="true" />
+      <created>1745837050303</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1745837050303</updated>
+    </task>
+    <task id="LOCAL-00029" summary="docs: 📖️Android startup框架详解">
+      <option name="closed" value="true" />
+      <created>1745838164478</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1745838164478</updated>
+    </task>
+    <task id="LOCAL-00030" summary="docs: 📖️Android startup框架详解">
+      <option name="closed" value="true" />
+      <created>1745845472552</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1745845472552</updated>
+    </task>
+    <task id="LOCAL-00031" summary="docs: 📖️Android startup框架详解">
+      <option name="closed" value="true" />
+      <created>1745846401598</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1745846401598</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +393,13 @@
     <MESSAGE value="docs: ️Android Binder通讯机制详解" />
     <MESSAGE value="docs: ️Android Binder使用教程" />
     <MESSAGE value="docs: ️React Native DOM渲染详解" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: ️React Native DOM渲染详解" />
+    <MESSAGE value="docs: ️React Native Yago引擎和Hermes引擎介绍" />
+    <MESSAGE value="docs: ️React Native Fabric详解" />
+    <MESSAGE value="docs: ️React Native 基于Metro分包" />
+    <MESSAGE value="docs: ️Android 通知栏知识点" />
+    <MESSAGE value="docs: ️Android启动Activity传参序列化原因" />
+    <MESSAGE value="docs: ️Android 多进程机制" />
+    <MESSAGE value="docs: ️Android startup框架详解" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: ️Android startup框架详解" />
   </component>
 </project>
