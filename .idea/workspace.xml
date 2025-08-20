@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_89.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/_default/params.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/_default/_markup/render-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/_default/_markup/render-image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials/head/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials/head/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/c9_new_guide_28.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +63,14 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/guohanlin/Documents/GitHub/RmondJone.github.io/static/images&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/RmondJone.github.io/static/images&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="D:\RmondJone.github.io\static\images" />
+      <recent name="$PROJECT_DIR$/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials" />
@@ -327,7 +332,63 @@
       <option name="project" value="LOCAL" />
       <updated>1745846401598</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="docs: 📖️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1751620487179</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1751620487179</updated>
+    </task>
+    <task id="LOCAL-00033" summary="docs: 📖️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1751624794735</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1751624794735</updated>
+    </task>
+    <task id="LOCAL-00034" summary="docs: 📖️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1751625017905</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1751625017905</updated>
+    </task>
+    <task id="LOCAL-00035" summary="docs: 📖️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1751626074816</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1751626074816</updated>
+    </task>
+    <task id="LOCAL-00036" summary="docs: ️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1752330094350</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1752330094350</updated>
+    </task>
+    <task id="LOCAL-00037" summary="docs: ️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1752743993802</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1752743993802</updated>
+    </task>
+    <task id="LOCAL-00038" summary="docs: ️C9游戏攻略更新">
+      <option name="closed" value="true" />
+      <created>1752744126598</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1752744126598</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +463,8 @@
     <MESSAGE value="docs: ️Android启动Activity传参序列化原因" />
     <MESSAGE value="docs: ️Android 多进程机制" />
     <MESSAGE value="docs: ️Android startup框架详解" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: ️Android startup框架详解" />
+    <MESSAGE value="docs: ️C9游戏攻略更新" />
+    <MESSAGE value="docs: ️C9游戏攻略更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: ️C9游戏攻略更新" />
   </component>
 </project>
