@@ -2,7 +2,7 @@
 baseurl = "https://rmondjone.github.io"
 languageCode = "zh-cn"
 paginate = 10
-title = "郭翰林的博客"
+title = "RmondJone的博客"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar

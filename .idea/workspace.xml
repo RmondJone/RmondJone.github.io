@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_84.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_85.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_86.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/c9_new_guide_89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/games/c9_new_guide.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/c9_new_guide_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/params.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/hugo-theme-stack/layouts/partials" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

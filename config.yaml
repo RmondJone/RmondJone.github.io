@@ -2,7 +2,7 @@
 baseURL: 'https://rmondjone.github.io'
 languageCode: 'zh-cn'
 paginate: 10
-title: '郭翰林的博客'
+title: 'RmondJone的博客'
 theme: 'hugo-theme-stack'
 enableInlineShortcodes: true
 enableRobotsTXT: true
