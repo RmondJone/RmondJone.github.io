@@ -150,7 +150,7 @@ git clone git@github.com:adityatelange/hugo-PaperMod.git
 #基础配置
 baseURL: 'http://rmondjone.github.io'
 languageCode: 'zh-CN'
-title: '郭翰林的博客'
+title: 'RmondJone的博客'
 theme: 'hugo-PaperMod'
 enableInlineShortcodes: true
 enableRobotsTXT: true
