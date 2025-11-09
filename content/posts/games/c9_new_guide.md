@@ -49,20 +49,7 @@ T0职业如下：暗杀、剑圣、奥术、锤子
 
 T1职业如下：元素、斧子、游侠、剑舞
 
-其他职业基本都是下水道，不建议玩！
-
-第一个职业推荐你玩元素，肉厚伤害高,核心技能书一本浅蓝陨落就行。元素分为天元和地元，个人推荐天元,操作起来舒服点。地元不能跳，这点比较蛋疼
-
-### 元素加点参考
-
-![e8c1277a685f1dd9a13c3cbd95dfba1.jpg](/images/c9_new_guide_6.jpg)
-![b3255e9486445f66da3098495762e34.jpg](/images/c9_new_guide_7.jpg)
-![d1becec75ed3b6f0800acfa2f883ce2.jpg](/images/c9_new_guide_8.jpg)
-![555eed18d4d6bfa76c804a4762cf604.jpg](/images/c9_new_guide_9.jpg)
-![1961b57b037d6117f87a127111f6a5d.jpg](/images/c9_new_guide_10.jpg)
-![bada8f113f0b8096415cbe4983af021.jpg](/images/c9_new_guide_11.jpg)
-
-**其他职业加点，加QQ群:628920744 ，看群相册，都有!**
+其他职业基本都是下水道，不建议玩！ 第一个职业推荐你玩T0职业里任选的，看你自己喜好，不懂的群里问！ 职业加点，加QQ群:628920744 ，看群相册，都有!
 
 ## 四、VFUN服务器的基本情况
 
