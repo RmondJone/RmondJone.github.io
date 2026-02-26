@@ -71,7 +71,7 @@ crontab -l
 
 安装XRay
 ```
-docker run --restart=always --name x-ui -d -v /root/x-ui/db:/etc/x-ui -v /root/ssl:/root/cert  --network host enwaiax/x-ui:latest
+docker run --restart=always --name x-ui -d -v /root/x-ui/db:/etc/x-ui -v /root/ssl:/root/cert  --network host enwaiax/x-ui:alpha-zh
 ```
 
 54321端口是X-UI的管理端口安装完之后，通过你的服务器ip http://ip:54321 端口访问X-UI管理后台。
@@ -171,7 +171,7 @@ http {
 * 安装subconverter转换服务
 ```
 #订阅转换后端
-docker run  -d --name=subconverter --restart=always -p 9003:25500 stilleshan/subconverter
+docker run  -d --name=subconverter --restart=always -p 9003:25500 guohanlin/subconverter
 #订阅转换前端
 docker run -d --name subweb --restart always \
   -p 9005:80 \
