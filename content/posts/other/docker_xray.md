@@ -205,3 +205,62 @@ server {
 http://config.xxxxx.xxxxx/sub?target=clash&url=%URL%
 ```
 配置参考：[https://github.com/tindy2013/subconverter/blob/master/README-cn.md](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
+
+
+### 五、解锁 Gemini、奈飞、ChatGPT
+
+* 下载奈飞检测工具
+``` shell
+#下载检测解锁程序
+wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/v3.1.0/nf_linux_amd64 && chmod +x nf
+```
+
+* 安装WARP仓库GPG 密钥：
+```shell
+curl https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+```
+
+* 添加WARP源：
+```shell
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
+```
+
+* 安装 CF WARP 程序
+```shell
+#更新APT缓存：
+apt update
+
+#安装WARP：
+apt install cloudflare-warp
+```
+
+* 如果 APT更新失败，尝试修改 APT源
+```shell
+vi /etc/apt/sources.list
+
+#把下面的内容进行替换
+deb http://archive.debian.org/debian/ buster main contrib non-free
+deb http://archive.debian.org/debian/ buster-updates main contrib non-free
+deb http://archive.debian.org/debian-security buster/updates main contrib non-free
+```
+
+* WARP的注册和连接
+```shell
+#注册
+warp-cli registration new
+
+#设置为代理模式（！！！！一定要设置要不然 SSH直接断连，机器无法找回）
+warp-cli mode proxy
+
+#开始连接
+warp-cli connect
+
+#查看状态
+warp-cli status
+
+#查询代理后的IP地址：
+curl ifconfig.me --proxy socks5://127.0.0.1:40000
+
+#检查奈飞是否解锁
+./nf
+```
