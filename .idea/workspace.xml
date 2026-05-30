@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="feat: ✨️Xray文章新增奈飞解锁方式">
-      <change beforePath="$PROJECT_DIR$/content/posts/other/docker_xray.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/other/docker_xray.md" afterDir="false" />
+    <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="feat: ✨️Xray文章新增奈飞解锁方式1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/other/vps_bbr.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/other/vps_bbr.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779929109593</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="feat: ✨️Xray文章新增奈飞解锁方式1">
+      <option name="closed" value="true" />
+      <created>1779930289685</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1779930289685</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +466,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="docs: README.md更新" />
     <MESSAGE value="docs: 黑苹果BIOS设置说明" />
     <MESSAGE value="feat: sentry日志监控平台" />
     <MESSAGE value="feat: C9引导--觉醒注意事项" />
@@ -482,6 +490,7 @@
     <MESSAGE value="docs: ️C9游戏攻略更新" />
     <MESSAGE value="docs: ️博客隐藏个人信息" />
     <MESSAGE value="feat: ✨️Xray文章新增奈飞解锁方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: ✨️Xray文章新增奈飞解锁方式" />
+    <MESSAGE value="feat: ✨️Xray文章新增奈飞解锁方式1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ✨️Xray文章新增奈飞解锁方式1" />
   </component>
 </project>

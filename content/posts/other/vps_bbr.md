@@ -54,4 +54,20 @@ docker run --name=speedtest -p 9001:80 adolfintel/speedtest
 
 ![](/images/bbr_4.webp)
 
+### 五、常用测试脚本
+
+#### 1、回程测试
+```shell
+curl https://raw.githubusercontent.com/ludashi2020/backtrace/main/install.sh -sSf | sh
+```
+
+#### 2、速度测试
+```shell
+bash <(curl -sL https://raw.githubusercontent.com/i-abc/Speedtest/main/speedtest.sh)
+```
+
+#### 3、流媒体检测
+```shell
+bash <(curl -L -s https://github.com/1-stream/RegionRestrictionCheck/raw/main/check.sh)
+```
 
