@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0a5c1-7537-40c6-8bfa-a81c9bbdb2e3" name="Changes" comment="docs: 📖️资源图片进行压缩">
-      <change afterPath="$PROJECT_DIR$/content/posts/opc/opc_ios.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/opc_ios_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/opc_ios_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/opc_ios_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/opc/opc_store_gallery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/store_gallery_7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
