@@ -31,6 +31,8 @@ tags: ["StoreGallery"]
 
 ![](/images/store_gallery_2.png)
 
+![](/images/store_gallery_8.png)
+
 在编辑面板左侧的工具栏里，第一项就是**画布尺寸设置**。做过上架的朋友都知道，苹果 App Store、Google Play 以及国内的小米应用市场等平台对截图的宽高像素要求极其严格，稍有偏差提交后台就会报错。
 
 Store Gallery 把目前主流平台的适配尺寸都做了整理和内置，大家不需要再去查官方文档，直接勾选即可切换画布：
@@ -43,6 +45,12 @@ Store Gallery 把目前主流平台的适配尺寸都做了整理和内置，大
 | App Store (iPhone) | iPhone 5.5" Display | 1242 × 2208 |  -   | 适用于 iPhone 8 Plus, 7 Plus |                                                                                       
 | App Store (iPad) | iPad Pro 13" 横屏 Display | 2732 × 2048 |  ⭐   | 适用于 iPad Pro 13" / 12.9" 横屏 App 上架截图 (推荐规格) |                                                 
 | App Store (iPad) | iPad Pro 13" 竖屏 Display | 2048 × 2732 |  -   | 适用于 iPad Pro 13" / 12.9" 竖屏 App 上架截图 |                                                                  
+| App Store (Mac) | Mac App Store 标准截图 (16:10) | 2880 × 1800 |  ⭐   | 适用于 Mac App Store 提交 (2880 × 1800 Retina Display，推荐) |
+| App Store (Mac) | Mac App Store 2K 截图 (16:10) | 2560 × 1600 |  -   | 适用于 Mac App Store 2K Retina 分辨率截图 (2560 × 1600) |
+| App Store (Mac) | Mac App Store 标清截图 (16:10) | 1280 × 800 |  -   | 适用于 Mac App Store 基础分辨率截图 (1280 × 800) |
+| Chrome 商店 | Chrome 商店标准截图 (16:10) | 1280 × 800 |  ⭐   | 适用于 Chrome 扩展应用商店标准展位 (1280 × 800，推荐) |
+| Chrome 商店 | Chrome 商店标清截图 (16:10) | 640 × 400 |  -   | 适用于 Chrome Web Store 基础规格截图 (640 × 400) |
+| Chrome 商店 | Chrome 商店大型宣传图 | 1400 × 560 |  -   | 适用于 Chrome 开发者中心 Marquee Promo Tile 宣传横幅 (1400 × 560) |
 | Google Play | Google Play 手机标准 | 1080 × 1920 |  ⭐   | 16:9 标准手机截图 (1080 × 1920) |                                                                                    
 | Google Play | Google Play 手机全面屏 | 1080 × 2400 |  -   | 20:9 现代长屏手机截图 (1080 × 2400) |                                                                                    
 | Google Play | Google Play 置顶图 | 1024 × 500 |  -   | Feature Graphic 应用顶部宣传大图 |                                                                                            
